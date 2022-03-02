@@ -1,0 +1,17 @@
+#FEBRIYAN BIOPSA MINANDA
+#5210411203
+
+#Private
+class Mobil() :
+    def __init__(self, jendela, pintu, mesin) :
+        self.__jendela = jendela
+        self.__pintu = pintu
+        self.__mesin = mesin
+
+    def Tampil(self) :
+        print(f"Jendela : {self.__jendela}")
+        print(f"Pintu : {self.__pintu}")
+        print(f"Mesin : {self.__mesin}")
+
+audi = Mobil(4,4,"Diesel")
+audi.Tampil()
